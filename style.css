@@ -1,0 +1,74 @@
+body{
+    background-color: #AFEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: #E6E6FA;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container h1{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+} 
+
+.inputText label,
+.inputText input,
+.conversion label,
+.conversion select{
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.inputText input,
+.conversion select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: auto;
+}
+
+.subbtn button{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #55c4ec 5%, #59d3ff 100%);
+	background-color:#55cdf9;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.subbtn button:hover{
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+
+.subbtn button:active{
+    position: relative;
+    top:1px;
+}
+
+#error{
+    color: red;
+    font-size: large;
+}
+
+#value{
+    color: green;
+    font-size: large;
+}
+
